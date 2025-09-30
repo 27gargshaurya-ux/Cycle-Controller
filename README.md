@@ -56,3 +56,19 @@ A smart **exercise cycle controller** built using **ESP8266 + Unity3D**, featuri
   ```cpp
   const char* ssid = "YOUR_WIFI";
   const char* password = "YOUR_PASS";
+Upload to ESP8266
+  
+2. Unity Code
+ Import Code/CycleController.cs into your Unity project.
+ Assign handle and cycle transforms in the Unity Inspector.
+ Update WebSocket IP (your ESP8266 IP) inside the script.
+
+🚴 How It Works
+ When the wheel rotates, the hall sensor detects the magnet → calculates speed.
+ Turning the handle changes the encoder value → mapped to steering in Unity.
+ Pressing the brake button sets speed to 0.
+ ESP8266 sends all sensor data via WebSocket → Unity visualizes in real time.
+
+🗓 Project Timeline
+ March 2025 – Project created and first working prototype built.
+ September 2025 – Uploaded to GitHub.
