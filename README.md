@@ -101,10 +101,9 @@ A smart **exercise cycle controller** built using **ESP8266 + Unity3D**, featuri
 
 ## 🚀 Future Improvements
 
-* Add **RPM & distance tracking**.
-* Implement **gear shifting simulation**.
+* Implement **Terrain simulation using a steppermotorconnected to the resistance knob**.
 * Add **Bluetooth support** for wireless mobile connectivity.
-* Use **3D Unity environment** for a more immersive cycling experience.
+* integrate **VR** for immersive experience .
 
 ---
 
