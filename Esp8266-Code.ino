@@ -2,8 +2,8 @@
 #include <WebSocketsServer.h>
 
 // Wi-Fi Credentials
-const char* ssid = "JioFiber-5G";            
-const char* password = "11223344";           
+const char* ssid = "WiFi ssid";            
+const char* password = "Password";           
 
 WebSocketsServer webSocket = WebSocketsServer(81);  
 
@@ -82,4 +82,5 @@ void loop() {
     lastSendTime = millis();  
   }
 }
+
 
