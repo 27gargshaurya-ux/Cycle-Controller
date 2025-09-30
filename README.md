@@ -1,5 +1,3 @@
-Got it. You don’t want me to break things into “copy blocks” at all — just give you the **raw text exactly as it should appear in your README.md**.
-Here’s the complete README, no extra wrappers, no outside explanation:
 
 ---
 
@@ -101,7 +99,7 @@ A smart **exercise cycle controller** built using **ESP8266 + Unity3D**, featuri
 
 ## 🚀 Future Improvements
 
-* Implement **Terrain simulation using a steppermotorconnected to the resistance knob**.
+* Implement **Terrain simulation using a stepper motor connected to the resistance knob**.
 * Add **Bluetooth support** for wireless mobile connectivity.
 * integrate **VR** for immersive experience .
 
